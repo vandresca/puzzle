@@ -1,0 +1,61 @@
+canvas{
+        cursor:pointer;
+}
+img{
+    display:none;
+    border:2px gray solid;
+    padding:5px;
+    float:left;
+}
+#base{
+    float:left;
+    position:relative!important;
+    }
+input[type="file"] {
+  width: 200px;
+  height: 19px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  left:0px;
+}
+.container button{
+	z-index:2;
+}
+.container{
+	position:absolute;
+	display:inline-block;
+}
+.show{
+    display:block;
+}
+.hide{
+    display:none;
+ }
+ button{
+    background-color:black;
+    color:white;
+    width:200px;
+    height:25px;
+}
+#msg{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    width:200px;
+    height:100px;
+    color:white;
+    background:black;
+    padding:10px;
+    z-index:99999;
+}
+p .msg{
+    font-weight:bold;
+}
+#ok{
+    width:60px;
+    height:25px;
+}
+
+

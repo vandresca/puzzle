@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<script src="jquery.min.js"></script>
+<script src="isotope.pkgd.min.js"></script>
+<script src="main.js"></script>
+<link rel="stylesheet" href="style.css" rel="stylesheet"/>
+</head>
+<body id="body">
+<div id="msg" class="hide">
+	<center>
+		<p class="msg">Felicidades!! Has ganado.</p>
+		</br>
+		<button id="ok">OK</button>
+	</center>
+</div>
+<div class="container">
+	  <button>Elige una imagen</button>
+      <input type="file" name="foto" id="picture" class="inputfile"/>
+	  &nbsp;&nbsp;
+	  <label for="picture"><span id="file_name">No has seleccionado ninguna imagen</span>      
+</div>
+<br><br>
+<button id="mix">MEZCLAR</button>
+<button id="restart">REINICIO</button>
+<br>
+<p>Desliza una casilla hacia el cuadro blanco cada vez hasta conseguir recomponer la imagen inicial.</p>
+<br>
+<canvas style="display:none;" width="500" height="500" id="canvas"></canvas>
+<img id="showImage" src=""/ width="300" height="300"/>
+</body>
+</html>
